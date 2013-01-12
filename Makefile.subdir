@@ -1,0 +1,21 @@
+# 
+# http://www.gnu.org/software/make/manual/make.html
+#
+# creat time: 2013-1-12
+# author: Sam
+# mail: txgcwm@163.com
+# function: compile current example, use current dir name as execute file name
+# 
+
+EXEC = $(shell pwd |sed 's/^\(.*\)[/]//')
+SRCS = $(wildcard *.cpp)
+
+all: $(EXEC)
+
+$(EXEC): $(SRCS)
+	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS) $(LDLIBS)
+
+clean:
+	rm -f $(EXEC) *.o
+
+.PHONY: all clean

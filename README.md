@@ -22,7 +22,7 @@ $ ./lesson01
 
 
 
-Links:
+Tutorial Links:
 
 http://lazyfoo.net/SDL_tutorials/index.php
 

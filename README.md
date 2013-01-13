@@ -1,4 +1,4 @@
-The SDL tutorial examples get from http://lazyfoo.net/SDL_tutorials/index.php. You also can find a Chinese tutorial from http://tjumyk.github.com/sdl-tutorial-cn/index.html. I just add two Makefile to sdl-tutorial so that we can easy to compile and study. On Linux system can compile sucess, I don't know whether it can been compiled On Windows System or not.
+The SDL tutorial examples get from http://lazyfoo.net/SDL_tutorials/index.php. You also can find a Chinese tutorial from http://tjumyk.github.com/sdl-tutorial-cn/index.html. I just add two Makefile to sdl-tutorial so that we can easy to compile and study. On Linux system can compile sucess.
 
 
 
